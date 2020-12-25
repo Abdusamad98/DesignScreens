@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="decline">Decline</string>
+    <string name="complete_blood_count">Complete blood count</string>
+    <string name="date">12/05/2020</string>
+    <string name="accept">Accept</string>
+    <string name="something">something</string>
+    <string name="appointment_request">Appointment Request</string>
+    <string name="comment">Comment</string>
+    <string name="some_texte_here_not_saw">Some texte here, not Saw</string>
+    <string name="dat">12 Jan 2020, 8am-10am</string>
+    <string name="louis">Louis</string>
+    <string name="patterson">Patterson</string>
+</resources>
