@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:id="@+id/subscription_item"
+    android:layout_margin="16sp"
+    android:background="@drawable/item_back_1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="0dp"
+        android:textSize="26sp"
+        android:id="@+id/subscription_text"
+        android:layout_margin="16sp"
+        app:layout_constraintBottom_toTopOf="@id/price"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/guideline"
+        android:text="General information \nsection for free"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/price"
+        android:textSize="16sp"
+        android:text="19.99 per month"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/subscription_text"
+        app:layout_constraintTop_toBottomOf="@id/subscription_text"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:id="@+id/image_item_subscription"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="0dp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
