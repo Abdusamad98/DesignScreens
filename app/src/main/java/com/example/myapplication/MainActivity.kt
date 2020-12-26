@@ -21,24 +21,25 @@ class MainActivity : AppCompatActivity() {
     lateinit var text: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
-        setContentView(R.layout.layout_subscription)
+//        window.setFlags(
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN
+//        )
+        setContentView(R.layout.layout_subscription_detail)
 
 
 
 
-        data = ArrayList<SubscriptionData>()
-        data = getSubscriptions()
-
-        val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
-        contactsAdapter = SubscriptionAdapter(data)
-        val layoutManager = LinearLayoutManager(applicationContext)
-        recyclerView.layoutManager = layoutManager
-        recyclerView.itemAnimator = DefaultItemAnimator()
-        recyclerView.adapter = contactsAdapter
+//For layout_subscription
+//        data = ArrayList<SubscriptionData>()
+//        data = getSubscriptions()
+//
+//        val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
+//        contactsAdapter = SubscriptionAdapter(data)
+//        val layoutManager = LinearLayoutManager(applicationContext)
+//        recyclerView.layoutManager = layoutManager
+//        recyclerView.itemAnimator = DefaultItemAnimator()
+//        recyclerView.adapter = contactsAdapter
 
 
         //       text = findViewById(R.id.price)
