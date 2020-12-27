@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-
     <ImageView
+        android:contentDescription="@string/something"
         android:id="@+id/close"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="to your Weight Loss plain"
+        android:text="@string/to_your_weight_loss_plain"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="@id/title"
         app:layout_constraintTop_toBottomOf="@id/title" />
@@ -65,6 +65,7 @@
 
 
             <ImageView
+                android:contentDescription="@string/something"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_margin="8dp"
@@ -84,7 +85,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$119.99/Year"
+                android:text="@string/_119_99_year"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -93,7 +94,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Something something something"
+                android:text="@string/something_something_something"
                 android:textColor="@color/black" />
 
 
@@ -125,6 +126,7 @@
 
 
             <ImageView
+                android:contentDescription="@string/something"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_margin="8dp"
@@ -144,7 +146,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7 DAY FREE TRIAL"
+                android:text="@string/_7_day_free_trial"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -153,7 +155,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Something something something"
+                android:text="@string/something_something_something"
                 android:textColor="@color/black" />
 
 
@@ -172,7 +174,7 @@
         android:background="@drawable/back7"
         android:padding="20dp"
         android:textStyle="bold"
-        android:text="Continue"
+        android:text="@string/continue_"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/second_linear" />
@@ -183,7 +185,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:id="@+id/purchase"
-        android:text="Restore purchases"
+        android:text="@string/restore_purchases"
         android:textColor="@color/black"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -196,8 +198,9 @@
         android:layout_width="wrap_content"
         android:layout_marginTop="15dp"
         android:textSize="8sp"
-        android:text="Something Something Something Something Something \nSomething Something Something "
-        android:layout_height="wrap_content"/>
+        android:text="@string/something_something_something_something_something_nsomething_something_something"
+        android:layout_height="wrap_content"
+        tools:ignore="SmallSp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
