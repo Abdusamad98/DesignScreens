@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="sky_color">#0170C1</color>
     <color name="kul">#D9DBDC</color>
+
+    <color name="btn_next_start_color">#F37356</color>
+    <color name="btn_next_end_color">#E03790</color>
 </resources>

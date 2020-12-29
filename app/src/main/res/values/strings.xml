@@ -18,4 +18,24 @@
     <string name="continue_">Continue</string>
     <string name="restore_purchases">Restore purchases</string>
     <string name="something_something_something_something_something_nsomething_something_something">Something Something Something Something Something\nSomething Something Something</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="about_you">About You</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+    <string name="birthday">Birthday</string>
+    <string name="_1998_03_09">1998-03-09</string>
+    <string name="height">Height</string>
+    <string name="_152_cm">152 cm</string>
+    <string name="centimeters">Centimeters</string>
+    <string name="ft">ft</string>
+    <string name="feet_or_inches">Feet or Inches</string>
+    <string name="in">in</string>
+    <string name="cm">cm</string>
+    <string name="weight">Weight</string>
+    <string name="_130_lbs">130 lbs</string>
+    <string name="pounds">Pounds</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="lbs">lbs</string>
+    <string name="next">Next</string>
 </resources>

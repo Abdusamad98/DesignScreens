@@ -1,5 +1,7 @@
 package com.example.myapplication.utils
 
+import android.content.Context
+import android.widget.Toast
 import com.example.myapplication.R
 import com.example.myapplication.models.SubscriptionData
 
@@ -11,4 +13,8 @@ fun getSubscriptions():ArrayList<SubscriptionData>{
     data.add(SubscriptionData("Healthy food program","9.99 € per month", R.drawable.fitness_icon_4,R.drawable.item_back_4,"#0C6AB5"))
     data.add(SubscriptionData("General information section for free","0.00 € per month", R.drawable.fitness_icon_1,R.drawable.item_back_5,"#9C2D23"))
     return data
+}
+
+fun toast(t:String,context:Context) {
+    return Toast.makeText(context,t,Toast.LENGTH_SHORT).show()
 }
